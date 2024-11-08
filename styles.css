@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body {
+    margin: 0;
+}
+
+div#grid {
+    border: 1px solid red;
+    height: 50dvw;
+    width: 50dvw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.box {
+    border: 1px solid blue;
+}
