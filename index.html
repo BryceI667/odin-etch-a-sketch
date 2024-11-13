@@ -7,9 +7,30 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <input type="number" min="1" max="20" id="gridsize" placeholder="Enter a size">
-    <button id="submitSize">Submit</button>
-    <div id="grid"></div>
+    <div class="titlecard">
+        <h1 class="header">Etch-A-Sketch</h1>
+    <p class="name">By BryceI667</p>
+    </div>
+    <div class="holder">
+        <div class="inputs">
+            <div class="input BTNA"><input type="number" min="1" max="20" id="gridsize" placeholder="Enter a size">
+                <button id="submitSize">Submit</button>
+            </div>
+    
+            <div class="input">
+                <input type="color" id="color">
+                <button id="submitColor">Submit</button>
+            </div>
+    
+            <div class="input extras">
+                <button id="randomColor">RANDOM</button>
+                <button id="eraser">ERASE</button>
+                <button id="clear">CLEAR</button>
+            </div>
+    
+        </div>
+        <div id="grid"></div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

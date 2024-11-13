@@ -7,6 +7,20 @@ body {
     margin: 0;
 }
 
+.titlecard {
+    background-color: rgb(174, 174, 219);
+    padding: 2%;
+}
+
+.header,
+.name {
+    text-align: center;
+}
+
+.name {
+    font-style: italic;
+}
+
 div#grid {
     border: 1px solid red;
     height: 50dvw;
@@ -18,4 +32,36 @@ div#grid {
 
 .box {
     border: 1px solid blue;
+}
+
+.holder {
+    height: 50dvh;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(126, 138, 156);
+}
+
+.inputs {
+    height: 75%;
+    width: 30%;
+    border: 3px solid greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 2%;
+    padding: 2%;
+
+}
+
+#gridsize {
+    width: 45%;
+}
+
+.extras {
+    display: flex;
+    gap: 2%;
+    justify-content: space-around;
 }
