@@ -23,8 +23,8 @@ body {
 
 div#grid {
     border: 1px solid red;
-    height: 50dvw;
-    width: 50dvw;
+    height: 90%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
